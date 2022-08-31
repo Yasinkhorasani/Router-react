@@ -8,6 +8,7 @@ const navigate = useNavigate()
     <div>
     <div>Home Page</div>
     <button onClick={()=> navigate('order-summary')}>Platz order </button>
+    <button onClick={()=> navigate('order-summary')}>Platz order </button>
     </div>
   )
 }
